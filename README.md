@@ -67,7 +67,9 @@ package.json
 
 ---
 
-## ✨ Getting Started 
+## ✨ Getting Started
+
+```bash
 
 ## 🚨 Prerequisites
 
