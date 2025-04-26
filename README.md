@@ -66,59 +66,38 @@ package-lock.json
 package.json
 
 
+# 📦 Getting Started
 
+## 🚨 Prerequisites
 
-📦 Getting Started
-Prerequisites
-Node.js (v14 or above)
+Before getting started, ensure you have the following installed:
 
-npm (node package manager)
+- **Node.js** (v14 or above)
+- **npm** (Node package manager)
 
-Installation
-Clone the repository
+---
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/ai-safety-dashboard.git
-cd ai-safety-dashboard
-Install dependencies
+## 🛠️ Installation
 
-bash
-Copy
-Edit
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/ai-safety-dashboard.git
+   cd ai-safety-dashboard
+
+### 🛠️ Install Dependencies:
+
+* Install all project dependencies:
+
+```bash
 npm install
-Start the development server
 
-bash
-Copy
-Edit
+### 🌱 Start the Development Server:
+
+* Start the app in development mode:
+
+```bash
 npm start
-Open http://localhost:3000 to view the app in your browser.
 
-🚀 Deployment
-You can deploy this project on platforms like:
+### **Open http://localhost:3000 in your browser to view the app.**
 
-Vercel
-
-Netlify
-
-GitHub Pages
-
-Build your project first:
-
-bash
-Copy
-Edit
-npm run build
-Deploy the generated /build folder to your preferred hosting service.
-
-For example, if you use Netlify, follow these steps:
-
-Push your code to GitHub (if not already done).
-
-Sign in to your Netlify account.
-
-Click on "New site from Git" and connect to GitHub.
-
-Choose your repository and deploy!
