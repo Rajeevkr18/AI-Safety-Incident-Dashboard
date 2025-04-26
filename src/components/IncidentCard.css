@@ -1,0 +1,97 @@
+.incident-card {
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    margin: 1rem;
+    width: 320px;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.5s, box-shadow 0.5s;
+    perspective: 1000px;
+  }
+  
+  .incident-card:hover {
+    transform: rotateY(8deg) rotateX(8deg) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
+  
+  .incident-card h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 0.8rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .incident-card p {
+    font-size: 1rem;
+    color: #e0e0e0;
+    margin: 0.4rem 0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  .description {
+    margin-top: 1rem;
+    color: #d1d1d1;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.5;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  .view-details-btn {
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #fff;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: background 0.4s, transform 0.3s;
+  }
+  
+  .view-details-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+  }
+  
+  /* Background gradient animation */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Fade-in for description */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .incident-card {
+      width: 90%;
+      padding: 1.5rem;
+    }
+  }
+  

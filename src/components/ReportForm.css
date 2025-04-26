@@ -1,0 +1,84 @@
+/* Report Form Container */
+.report-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Input and Textarea Fields */
+  .report-form input,
+  .report-form textarea,
+  .report-form select {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .report-form input:focus,
+  .report-form textarea:focus,
+  .report-form select:focus {
+    border: 1px solid #00c3ff;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(0, 195, 255, 0.7);
+  }
+  
+  /* Submit Button */
+  .report-form .submit-btn {
+    background: linear-gradient(90deg, #00c3ff, #ffff1c);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 195, 255, 0.3);
+  }
+  
+  .report-form .submit-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 195, 255, 0.5);
+  }
+  
+  /* Animation for form */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .report-form select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+  }
+  .report-form option {
+    color: black;
+    background: white;
+  }
+  
