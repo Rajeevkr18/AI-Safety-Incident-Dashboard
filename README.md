@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+🛡️ AI Safety Incident Dashboard
+A modern, responsive web application to view, filter, sort, and report AI safety incidents.
+Built with React.js, focused on clean design, user experience, and mobile responsiveness.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌐 Live Demo
+Visit the Deployed App Here
+(Replace with your deployed URL.)
 
-## Available Scripts
+🛠️ Tech Stack
+Frontend: React.js, React Router
 
-In the project directory, you can run:
+Styling: CSS3 (Custom responsive design, 3D card effects)
 
-### `npm start`
+Package Manager: npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Deployment: (Example: Netlify / Vercel / GitHub Pages)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📁 Project Structure
+bash
+Copy
+Edit
+public/
+src/
+├── components/
+│   ├── IncidentCard.css
+│   ├── IncidentCard.js
+│   ├── IncidentList.css
+│   ├── IncidentList.js
+│   ├── Navbar.css
+│   └── Navbar.js
+├── data/
+│   └── incidents.js
+├── pages/
+│   ├── Dashboard.css
+│   ├── Dashboard.js
+│   ├── Home.css
+│   ├── Home.js
+│   ├── ReportIncident.css
+│   └── ReportIncident.js
+├── App.css
+├── App.js
+├── App.test.js
+├── index.css
+├── index.js
+├── logo.svg
+├── reportWebVitals.js
+└── setupTests.js
+README.md
+package-lock.json
+package.json
+✨ Features
+📋 Display a list of AI-related safety incidents.
 
-### `npm test`
+🔍 Filter incidents based on severity (Low, Medium, High).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🧹 Sort incidents by date (Newest First or Oldest First).
 
-### `npm run build`
+📝 Submit a new AI incident using a clean, interactive form.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🖌️ 3D-style card design for a modern and aesthetic user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📱 Fully responsive for Mobile, Tablet, and Desktop devices.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🚀 Smooth navigation between Home, Dashboard, and Report pages.
 
-### `npm run eject`
+📦 Getting Started
+Prerequisites
+Node.js installed (v14 or above)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm installed
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Installation
+Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy
+Edit
+git clone https://github.com/your-username/ai-safety-dashboard.git
+cd ai-safety-dashboard
+Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
-## Learn More
+bash
+Copy
+Edit
+npm start
+Open http://localhost:3000 to view it in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🚀 Deployment
+You can deploy this project on platforms like:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Vercel
 
-### Code Splitting
+Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+GitHub Pages
 
-### Analyzing the Bundle Size
+After building your project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+bash
+Copy
+Edit
+npm run build
+Deploy the generated /build folder to your preferred hosting service.
 
-### Making a Progressive Web App
+📜 License
+This project is open source and available under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👨‍💻 Author
+Made with ❤️ by [Your Name]
 
-### Advanced Configuration
+GitHub: your-github-profile
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+LinkedIn: your-linkedin-profile
 
-### Deployment
+🎯 Final Note
+This project is a part of a frontend assignment focused on React.js, responsive design, and dashboard development for managing and reporting AI safety incidents.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✅ Professional README Completed!
