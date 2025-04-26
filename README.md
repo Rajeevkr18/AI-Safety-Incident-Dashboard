@@ -8,20 +8,20 @@ Visit the Deployed App: [AI Safety Incident Dashboard](https://your-app-url-here
 
 ## 🛠️ Tech Stack
 
-* **Frontend**: React.js, React Router
-* **Styling**: CSS3 (Custom responsive design, 3D card effects)
-* **Package Manager**: npm
-* **Deployment**: Netlify / Vercel / GitHub Pages
+* **Frontend**: React.js, React Router  
+* **Styling**: CSS3 (Custom responsive design, 3D card effects)  
+* **Package Manager**: npm  
+* **Deployment**: Netlify / Vercel / GitHub Pages  
 
 ## ✨ Features
 
-* 📋 Display a list of AI-related safety incidents
-* 🔍 Filter incidents based on severity (Low, Medium, High)
-* 🧹 Sort incidents by date (Newest First or Oldest First)
-* 📝 Submit a new AI incident using a clean, interactive form
-* 🖌️ 3D-style card design for a modern and aesthetic user experience
-* 📱 Fully responsive for Mobile, Tablet, and Desktop devices
-* 🚀 Smooth navigation between Home, Dashboard, and Report pages
+* 📋 Display a list of AI-related safety incidents  
+* 🔍 Filter incidents based on severity (Low, Medium, High)  
+* 🧹 Sort incidents by date (Newest First or Oldest First)  
+* 📝 Submit a new AI incident using a clean, interactive form  
+* 🖌️ 3D-style card design for a modern and aesthetic user experience  
+* 📱 Fully responsive for Mobile, Tablet, and Desktop devices  
+* 🚀 Smooth navigation between Home, Dashboard, and Report pages  
 
 ## 📁 Project Structure
 public/
