@@ -1,59 +1,47 @@
 # 🛡️ AI Safety Incident Dashboard
 
-A modern, responsive web application to **view**, **filter**, **sort**, and **report AI safety incidents**.  
-Built with **React.js**, focused on clean design, user experience, and mobile responsiveness.
-
----
+A modern, responsive web application to view, filter, sort, and report AI safety incidents. Built with React.js, focused on clean design, user experience, and mobile responsiveness.
 
 ## 🌐 Live Demo
 
-> **Visit the Deployed App**: [AI Safety Incident Dashboard](https://ai-safety-incident-dashboard.netlify.app/)
-
----
+Visit the Deployed App: [AI Safety Incident Dashboard](https://your-app-url-here.com)
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js, React Router
-- **Styling**: CSS3 (Custom responsive design, 3D card effects)
-- **Package Manager**: npm
-- **Deployment**: Netlify / Vercel / GitHub Pages
-
----
+* **Frontend**: React.js, React Router
+* **Styling**: CSS3 (Custom responsive design, 3D card effects)
+* **Package Manager**: npm
+* **Deployment**: Netlify / Vercel / GitHub Pages
 
 ## ✨ Features
 
-- 📋 **Display** a list of AI-related safety incidents.
-- 🔍 **Filter** incidents based on severity (Low, Medium, High).
-- 🧹 **Sort** incidents by date (Newest First or Oldest First).
-- 📝 **Submit** a new AI incident using a clean, interactive form.
-- 🖌️ 3D-style **card design** for a modern and aesthetic user experience.
-- 📱 **Fully responsive** for Mobile, Tablet, and Desktop devices.
-- 🚀 **Smooth navigation** between Home, Dashboard, and Report pages.
-
----
-
+* 📋 Display a list of AI-related safety incidents
+* 🔍 Filter incidents based on severity (Low, Medium, High)
+* 🧹 Sort incidents by date (Newest First or Oldest First)
+* 📝 Submit a new AI incident using a clean, interactive form
+* 🖌️ 3D-style card design for a modern and aesthetic user experience
+* 📱 Fully responsive for Mobile, Tablet, and Desktop devices
+* 🚀 Smooth navigation between Home, Dashboard, and Report pages
 
 ## 📁 Project Structure
-
-```bash
 public/
 src/
 ├── components/
-│   ├── IncidentCard.css
-│   ├── IncidentCard.js
-│   ├── IncidentList.css
-│   ├── IncidentList.js
-│   ├── Navbar.css
-│   └── Navbar.js
+│ ├── IncidentCard.css
+│ ├── IncidentCard.js
+│ ├── IncidentList.css
+│ ├── IncidentList.js
+│ ├── Navbar.css
+│ └── Navbar.js
 ├── data/
-│   └── incidents.js
+│ └── incidents.js
 ├── pages/
-│   ├── Dashboard.css
-│   ├── Dashboard.js
-│   ├── Home.css
-│   ├── Home.js
-│   ├── ReportIncident.css
-│   └── ReportIncident.js
+│ ├── Dashboard.css
+│ ├── Dashboard.js
+│ ├── Home.css
+│ ├── Home.js
+│ ├── ReportIncident.css
+│ └── ReportIncident.js
 ├── App.css
 ├── App.js
 ├── App.test.js
@@ -65,7 +53,6 @@ src/
 README.md
 package-lock.json
 package.json
-
 
 
 ## ✨ Getting Started
@@ -84,14 +71,12 @@ Before getting started, ensure you have the following installed:
 ```bash
 git clone https://github.com/your-username/ai-safety-dashboard.git
 cd ai-safety-dashboard
+Install Dependencies:
 
-2. Install Dependencies:
-```bash
+bash
 npm install
+Start the Development Server:
 
-3. Start the Development Server
-```bash
+bash
 npm start
-
 Open http://localhost:3000 in your browser to view the app.
- 
