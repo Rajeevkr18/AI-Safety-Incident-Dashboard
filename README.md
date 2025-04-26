@@ -4,14 +4,14 @@ A modern, responsive web application to view, filter, sort, and report AI safety
 
 ## 🌐 Live Demo
 
-Visit the Deployed App: [AI Safety Incident Dashboard](https://your-app-url-here.com)
+Visit the Deployed App: [AI Safety Incident Dashboard](https://ai-safety-incident-dashboard.netlify.app/)
 
 ## 🛠️ Tech Stack
 
 * **Frontend**: React.js, React Router  
 * **Styling**: CSS3 (Custom responsive design, 3D card effects)  
 * **Package Manager**: npm  
-* **Deployment**: Netlify / Vercel / GitHub Pages  
+* **Deployment**: Netlify  
 
 ## ✨ Features
 
