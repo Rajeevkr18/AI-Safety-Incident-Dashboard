@@ -23,38 +23,6 @@ Visit the Deployed App: [AI Safety Incident Dashboard](https://your-app-url-here
 * 📱 Fully responsive for Mobile, Tablet, and Desktop devices  
 * 🚀 Smooth navigation between Home, Dashboard, and Report pages  
 
-## 📁 Project Structure
-public/
-src/
-├── components/
-│ ├── IncidentCard.css
-│ ├── IncidentCard.js
-│ ├── IncidentList.css
-│ ├── IncidentList.js
-│ ├── Navbar.css
-│ └── Navbar.js
-├── data/
-│ └── incidents.js
-├── pages/
-│ ├── Dashboard.css
-│ ├── Dashboard.js
-│ ├── Home.css
-│ ├── Home.js
-│ ├── ReportIncident.css
-│ └── ReportIncident.js
-├── App.css
-├── App.js
-├── App.test.js
-├── index.css
-├── index.js
-├── logo.svg
-├── reportWebVitals.js
-└── setupTests.js
-README.md
-package-lock.json
-package.json
-
-
 ## ✨ Getting Started
 
 ### 🚨 Prerequisites
@@ -71,12 +39,12 @@ Before getting started, ensure you have the following installed:
 ```bash
 git clone https://github.com/your-username/ai-safety-dashboard.git
 cd ai-safety-dashboard
-Install Dependencies:
 
-bash
+Install Dependencies:
+ 
 npm install
 Start the Development Server:
-
-bash
+ 
 npm start
 Open http://localhost:3000 in your browser to view the app.
+
