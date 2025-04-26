@@ -8,7 +8,7 @@ Visit the Deployed App: [AI Safety Incident Dashboard](https://ai-safety-inciden
 
 ## 🛠️ Tech Stack
 
-* **Frontend**: React.js, React Router  
+* **Frontend**: React.js, Javascript, React Router  
 * **Styling**: CSS3 (Custom responsive design, 3D card effects)  
 * **Package Manager**: npm  
 * **Deployment**: Netlify  
