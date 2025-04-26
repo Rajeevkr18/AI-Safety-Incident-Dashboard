@@ -66,7 +66,8 @@ package-lock.json
 package.json
 
 
-# 📦 Getting Started
+
+## ✨ Getting Started 
 
 ## 🚨 Prerequisites
 
